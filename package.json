@@ -1,0 +1,17 @@
+{
+  "name": "sportstracker",
+  "version": "1.0.0",
+  "description": "Simple application to check on athletes progress",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sports",
+    "progress",
+    "tracking",
+    "schedule"
+  ],
+  "author": "Shivanand",
+  "license": "ISC"
+}
