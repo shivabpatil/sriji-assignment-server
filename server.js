@@ -13,3 +13,13 @@ var app = express();
 
 //get config objetc
 var config = require('./server/config/config')[env];
+
+// start server
+
+app.listen(config.port,function (err) {
+  if (err) {
+    throw err;
+  } else {
+    console.log('Server is running on port ' + config.port);
+  }
+})

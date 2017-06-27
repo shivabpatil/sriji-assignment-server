@@ -17,6 +17,10 @@
   "dependencies": {
     "express": "^4.15.3",
     "mongodb": "^2.2.29",
-    "mongoose": "^4.10.7"
+    "mongoose": "^4.10.7",
+    "morgan": "^1.7.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "stylus": "^0.54.5"
   }
 }
