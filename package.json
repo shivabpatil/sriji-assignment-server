@@ -4,7 +4,7 @@
   "description": "Simple application to check on athletes progress",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "sports",
@@ -15,12 +15,16 @@
   "author": "Shivanand",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "bower": "^1.8.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "jade": "^1.11.0",
     "mongodb": "^2.2.29",
     "mongoose": "^4.10.7",
-    "morgan": "^1.7.0",
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3",
+    "morgan": "^1.8.2",
     "stylus": "^0.54.5"
   }
 }

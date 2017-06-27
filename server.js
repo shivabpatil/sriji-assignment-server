@@ -14,8 +14,16 @@ var app = express();
 //get config objetc
 var config = require('./server/config/config')[env];
 
-// start server
+// get express ready
+require('./server/config/express')(app,config);
 
+//get mongoose up and ready
+require('./server/config/mongoose')(config);
+
+// get routing involved 
+require('./server/config/routes')(app);
+
+// start server
 app.listen(config.port,function (err) {
   if (err) {
     throw err;

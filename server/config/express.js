@@ -4,7 +4,7 @@ var express = require('express'),
 	cookieParser = require('cookie-parser'),
 	logger =require('morgan'),
 	mongoose = require('mongoose'),
-	path = require ('path'),
+	path = require ('path');
 
 module.exports = function (app,config) {
 
