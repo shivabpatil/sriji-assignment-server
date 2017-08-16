@@ -21,7 +21,7 @@ require('./server/config/express')(app,config);
 require('./server/config/mongoose')(config);
 
 // get routing involved 
-require('./server/config/routes')(app);
+require('./server/config/routes')(app,config);
 
 // start server
 app.listen(config.port,function (err) {
